@@ -13,7 +13,7 @@ I enjoy building responsive web applications and improving my programming skills
 
 ## 🚀 Live Demo
 
-https://your-username.github.io/portfolio-new/
+https://karuna174.github.io/portfolio-new/
 
 ---
 
