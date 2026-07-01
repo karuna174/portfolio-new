@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(5, 5, 50);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(5, 5, 72);
+  height: 60px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+nav ul li {
+  list-style: none;
+  margin: 25px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(24, 24, 155);
+  font-size: 1.07em;
+}
+nav .left {
+  font-size: 1.9em;
+}
+nav.right {
+  font-size: 1.2em;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+.leftsection {
+  font-size: 1.8em;
+  width: 35%;
+  margin: 50px;
+}
+
+.leftsection span {
+  color: rgb(81, 32, 128);
+}
+.leftsection button {
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 7px;
+  margin: 15px 5px;
+  background-color: rgb(1, 1, 32);
+  color: rgb(238, 219, 219);
+  a {
+    text-decoration: none;
+  }
+}
+.rightsection {
+  width: 30%;
+}
+.rightsection img {
+  width: 90%;
+}
+.section2 {
+  max-width: 80vw;
+  margin: auto;
+  padding: 10px;
+}
+hr {
+  border: 0;
+  margin: 30px 40px;
+  height: 1.2px;
+  background-color: rgb(166, 166, 234);
+}
+.section2 h1 {
+  font-size: 2em;
+  color: rgb(98, 98, 222);
+  margin-bottom: 20px;
+}
+.section2 p {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.8;
+  margin-top: 15px;
+  width: 104%;
+}
+.skills-section {
+  max-width: 80vw;
+  margin: 50px auto;
+}
+
+.skills-section h1 {
+  color: rgb(98, 98, 222);
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill {
+  background-color: rgb(20, 20, 80);
+  color: white;
+  padding: 12px 25px;
+  border: 2px solid rgb(98, 98, 222);
+  border-radius: 30px;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background-color: rgb(98, 98, 222);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.projects-section {
+  max-width: 80vw;
+  margin: 60px auto;
+}
+
+.projects-section h1 {
+  color: rgb(98, 98, 222);
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.projects-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: rgb(20, 20, 80);
+  border-radius: 15px;
+  padding: 25px;
+  width: 350px;
+  border: 2px solid rgb(98, 98, 222);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h2 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.project-card p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.project-card span {
+  display: inline-block;
+  background: rgb(98, 98, 222);
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 5px;
+}
+.contact-section {
+  max-width: 80vw;
+  margin: 40px auto;
+}
+
+.contact-section h1 {
+  color: rgb(98, 98, 222);
+  margin-bottom: 25px;
+}
+
+.contact-section p {
+  font-size: 1.1em;
+  margin: 13px 0;
+}
+
+.contact-section a {
+  color: rgb(98, 98, 222);
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #151529;
+  padding: 5px 5px;
+  height: 19vh;
+}
+footer .first-footer {
+  font-size: 0.8em;
+  margin: 30px;
+}
+
+footer .second-footer {
+  font-size: 1em;
+  padding: 10px;
+}
+footer .third-footer {
+  font-size: 1em;
+  padding: 10px;
+}
+footer .fourth-footer {
+  font-size: 1em;
+  padding: 10px;
+}
+footer ul {
+  list-style: none;
+}
+.rights {
+  background: #151529;
+  text-align: center;
+  font-size: 1.05em;
+  color: gray;
+}
